@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
+    <title>Taapmaan Btao</title>
     <style>
+         
+        body {
+            background-image: url('https://media.istockphoto.com/id/509139773/photo/cloudy-blue-sky-with-sun-beam.jpg?s=612x612&w=0&k=20&c=fr3rjZ5gdtd4N7H223nroyMZ0Ngm3w5VN2oZk7cahyk='); /* Path to your image */
+            background-size: cover;  /* Ensures the image covers the entire screen */
+            background-position: center; /* Centers the image */
+            background-attachment: fixed; /* Makes the image stay fixed when scrolling */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh; /* Full viewport height */
+            
+        }
         body {
             font-family: Arial, sans-serif;
             background-color: #f0f8ff;
@@ -66,7 +78,11 @@
 </head>
 <body>
     <div class="weather-container">
-        <h1>Weather App</h1>
+        <h1>Taapmaan Btao</h1>
+        <h4>Umid hai mausam acha hoga</h4>
+        <a href="https://www.instagram.com/backbencher_boys07/" target="_blank" class="instagram-link">
+            Follow me on Instagram 📸
+        </a>
         
         <div class="input-container">
             <input type="text" id="location" placeholder="Enter city name">
@@ -78,6 +94,7 @@
             <p><strong>Temperature:</strong> <span id="temperature"></span> °C</p>
             <p><strong>Condition:</strong> <span id="condition"></span></p>
             <p><strong>Air Quality Index (AQI):</strong> <span id="aqi"></span></p>
+            <p><strong> jao enjoy kro ⛅️<strong></span></p>
         </div>
     </div>
 
@@ -115,6 +132,7 @@
                 alert("Something went wrong. Please try again later.");
             }
         }
+        
     </script>
 </body>
 </html>
